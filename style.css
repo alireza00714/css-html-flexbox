@@ -35,6 +35,8 @@ body {
 
 .image {
   background-image: url(./background.jpg);
+  background-size: cover;
+  background-position: bottom;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   color: white;
@@ -42,6 +44,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
+  width: 100%;
   font-family: "WorkSans";
   font-size: 1.3rem;
   font-weight: 600;
