@@ -5,12 +5,6 @@ body {
   width: 100%;
   height: 100%;
 }
-
-body {
-  background-color: #eceef0;
-  font-family: "WorkSans";
-}
-
 * {
   box-sizing: border-box;
 }
@@ -18,5 +12,6 @@ body {
   font-family: "WorkSans";
   src: url(./WorkSans-VariableFont_wght.ttf) format("truetype");
 }
+
 
 
