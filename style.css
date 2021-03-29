@@ -15,6 +15,148 @@ body {
 
 body {
   font-family: "WorkSans";
+  background-color: #6a9a9a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #27636d;
+  width: 80%;
+  height: 80%;
+  overflow: hidden;
+  border-radius: 7px;
+}
 
+.light-background {
+  margin-top: -80px;
+  margin-right: -50px;
+  background-color: #feba33;
+  height: 130%;
+  width: 60%;
+  transform: rotate(5deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.illustration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.illustration > img {
+  margin: 0 0 0 5%;
+  width: 50%;
+  height: auto;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: rotate(-5deg);
+}
+
+.box {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 310px;
+  height: 330px;
+  border-radius: 8px;
+  box-shadow: 10px 10px 28px -10px black;
+  margin: 0 0 60px 0;
+}
+
+.upper-section {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 55px;
+  width: 100%;
+  background-color: white;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  box-shadow: 0 1px 30px -15px black;
+  margin: 0 0 30px 0;
+}
+
+.upper-section > p {
+  height: min-content;
+  color: #feba33;
+  font-size: .8rem;
+  margin: 22px 0 26px 20px;
+}
+
+.upper-section > a {
+  height: min-content;
+  margin: 22px 20px 26px 0;
+  text-decoration: none;
+  font-size: .8rem;
+  color: #bfbfbf;
+}
+
+.input-section{
+  width: 280px;
+  margin: 0 0 50px 0;
+}
+
+.input-section > div > input {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background-color: transparent;
+}
+
+.input-section > div > input::placeholder{
+  color: #8b8b8b; 
+}
+
+.input-section > div > i{
+  opacity: .5;
+}
+
+.input-section > div{
+  background-color: #f7f9f8;
+  height: 50px;
+  border: 2px solid #e7e7e7;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.username{
+  margin: 0 0 15px 0;
+}
+
+input[type="button"]{
+  background-color: #1a535c;
+  color: white;
+  font-family: "WorkSans";
+  font-size: 1.25rem;
+  border: none;
+  width: 280px;
+  height: 60px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main-container > span{
+  color: white;
+}
+
+.main-container > a{
+  text-decoration: none;
+}
