@@ -154,6 +154,7 @@ input[type="button"] {
 
 .main-container > a {
   text-decoration: none;
+  color: #1a535c;
 }
 .left {
   position: relative;
