@@ -37,6 +37,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom-right-radius: 7px;
+  border-top-right-radius: 7px;
 }
 
 .illustration {
