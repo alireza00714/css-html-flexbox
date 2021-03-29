@@ -27,17 +27,13 @@ body {
   background-color: #27636d;
   width: 80%;
   height: 80%;
-  overflow: hidden;
   border-radius: 7px;
 }
 
 .light-background {
-  margin-top: -80px;
-  margin-right: -50px;
+  clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 13% 0%);
   background-color: #feba33;
-  height: 130%;
-  width: 60%;
-  transform: rotate(5deg);
+  width: 55%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,7 +57,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  transform: rotate(-5deg);
+  margin: 0 -80px 0 0;
 }
 
 .box {
@@ -94,7 +90,7 @@ body {
 .upper-section > p {
   height: min-content;
   color: #feba33;
-  font-size: .8rem;
+  font-size: 0.8rem;
   margin: 22px 0 26px 20px;
 }
 
@@ -102,11 +98,11 @@ body {
   height: min-content;
   margin: 22px 20px 26px 0;
   text-decoration: none;
-  font-size: .8rem;
+  font-size: 0.8rem;
   color: #bfbfbf;
 }
 
-.input-section{
+.input-section {
   width: 280px;
   margin: 0 0 50px 0;
 }
@@ -118,15 +114,15 @@ body {
   background-color: transparent;
 }
 
-.input-section > div > input::placeholder{
-  color: #8b8b8b; 
+.input-section > div > input::placeholder {
+  color: #8b8b8b;
 }
 
-.input-section > div > i{
-  opacity: .5;
+.input-section > div > i {
+  opacity: 0.3;
 }
 
-.input-section > div{
+.input-section > div {
   background-color: #f7f9f8;
   height: 50px;
   border: 2px solid #e7e7e7;
@@ -137,11 +133,11 @@ body {
   padding: 0 15px;
 }
 
-.username{
+.username {
   margin: 0 0 15px 0;
 }
 
-input[type="button"]{
+input[type="button"] {
   background-color: #1a535c;
   color: white;
   font-family: "WorkSans";
@@ -153,10 +149,25 @@ input[type="button"]{
   cursor: pointer;
 }
 
-.main-container > span{
+.main-container > span {
   color: white;
 }
 
-.main-container > a{
+.main-container > a {
   text-decoration: none;
+}
+.left {
+  position: relative;
+}
+.light {
+  background-image: linear-gradient(to bottom, #feba33, transparent);
+  opacity: 0.4;
+  width: 400px;
+  height: 400px;
+  transform: rotate(90deg);
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+  position: absolute;
+  right: 140px;
+  top: -70px;
+  z-index: +1;
 }
