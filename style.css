@@ -16,3 +16,180 @@ body {
 body {
   font-family: "WorkSans";
 }
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0 0 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 200px;
+  margin: 0 0 40px 0;
+}
+
+img[alt="logo"] {
+  width: 100px;
+  margin: 0 0 0 -90px;
+}
+
+.fa-search {
+  color: white;
+  font-size: 14px;
+  background-color: #eb536c;
+  border-radius: 50%;
+  border: solid 15px #eb536c;
+  box-shadow: 0 4px 10px -5px black;
+  cursor: pointer;
+}
+
+.fa-facebook-f,
+.fa-twitter,
+.fa-instagram {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.fa-facebook-f,
+.fa-twitter {
+  margin: 0 22px 0 0;
+}
+
+.fa-facebook-f {
+  color: #1a40a5;
+}
+
+.fa-twitter {
+  color: #48a1f5;
+}
+
+.fa-instagram {
+  color: #a6507f;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  margin: 0 20px 0 0;
+  cursor: pointer;
+}
+
+.nav-item > i {
+  font-size: 10px;
+}
+
+.main-container {
+  width: 100%;
+  height: max-content;
+  padding: 80px 0 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 40px 60px 0;
+}
+
+.content > p {
+  text-align: center;
+  color: #68696d;
+}
+
+.image {
+  position: relative;
+}
+
+.image > img {
+  width: 300px;
+  margin: 0 0 10px 0;
+  box-shadow: 0px 5px 15px -5px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.info > span {
+  font-size: 12px;
+}
+
+.fa-circle {
+  font-size: 3px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+}
+
+.author > img {
+  border-radius: 50%;
+  width: 30px;
+  box-shadow: 0px 3px 3px -2px;
+  margin: 0 10px 0 0;
+}
+.author > span {
+  font-size: 12px;
+}
+
+.tag {
+  display: flex;
+  justify-content: center;
+}
+
+.tag > span {
+  font-size: 12px;
+}
+
+.tag > i {
+  transform: rotate(90deg);
+  color: #9f576b;
+  margin: 0 5px 0 0;
+}
+
+.statistics {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #716bf3;
+  border-radius: 100px;
+  padding: 7px 11px;
+}
+
+.statistics > div > i, .statistics > div > span{
+  color: white;
+  font-size: 13px;
+}
+
+.comments, .fire{
+  margin: 0 10px 0 0;
+}
+
+.title{
+  font-size: 1.5rem;
+  font-weight: 500;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  left: 20px;
+  background-color: white;
+}
